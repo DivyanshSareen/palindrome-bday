@@ -12,7 +12,6 @@ function makeArray(date) {
 
 function getAllPermutation(date) {
   let a = makeArray(date);
-  console.log(date);
   return [
     a[2] + a[1] + a[0],
     a[1] + a[2] + a[0],
@@ -34,7 +33,6 @@ function checkPalindrome(str) {
 function checkAllDates(date) {
   let f = false;
   let arr = getAllPermutation(date);
-  console.log(arr);
   for (let i = 0; i < arr.length; i += 1) {
     if (checkPalindrome(arr[i])) {
       f = true;

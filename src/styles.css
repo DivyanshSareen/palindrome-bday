@@ -1,6 +1,32 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  background: #b1fffd;
+  margin: 0;
+  padding: 0;
+  color: #eb92be;
+}
+header {
+  background: #a8e7e9;
+  padding: 1.5em;
+}
+input[type="date"] {
+  color: #eb92be;
+  background: #ffef78;
+  border: 3.5px dotted #eb92be;
+  border-radius: 6px;
+}
+#enter {
+  background: #ffef78;
+  color: #eb92be;
+  font-weight: 550;
+  border: 2px solid #eb92be;
+  border-radius: 4px;
+  width: 4rem;
+  height: 1.5rem;
+}
+#res {
+  font-weight: 600;
 }
 #container {
   display: flex;
