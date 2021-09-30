@@ -1,4 +1,5 @@
 # palindrome-bday
+
 Tells if your birthdate is a palindrome(in any date format) or not. In case your birthdate is not a palindrome, it will tell by how many days you missed.
 
 ### Preview
@@ -9,4 +10,4 @@ Tells if your birthdate is a palindrome(in any date format) or not. In case your
 
 [![Edit dawn-glitter-y9f5m](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/dawn-glitter-y9f5m?fontsize=14&hidenavigation=1&theme=dark)
 
-or got to https://y9f5m.csb.app/
+or got to https://csb-y9f5m.netlify.app/
